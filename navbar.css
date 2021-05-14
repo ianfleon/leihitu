@@ -1,0 +1,50 @@
+header h1 {
+  font-size: 58pt;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+header h3 {
+  text-align: center;
+  font-size: 17pt;
+  font-family: 'Open Sans', serif;
+  color: #eee;
+  font-weight: 300;
+}
+
+main {
+  height: 250px;
+}
+
+/* Start of Navigation Styles */
+
+nav {
+  width: 100vw;
+  height: 50px;
+  background-color: #fff;
+  position: fixed;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+  display: flex;
+  /*align-items: center;*/
+  /*padding-left: 22.5%;*/
+  z-index: 999;
+}
+
+nav > ul > li {
+  display: inline;
+  font-family: 'Playfair Display', serif;
+  padding-left: 5px;
+  
+}
+
+nav > ul > li:nth-child(1) {
+  font-weight: 700;
+}
+
+#spacer {
+  height: 50px;
+  width: 100%;
+}
